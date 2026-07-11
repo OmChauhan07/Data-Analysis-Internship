@@ -83,7 +83,7 @@ def render_hero(main_df: pd.DataFrame) -> None:
     st.markdown(
         """
         <div class="hero-card">
-            <div class="hero-title">Google Play Store Analytics Dashboard</div>
+            <div class="hero-title">PlayStore Interlligence: App Analytics & Sentiment Mining Dashboard</div>
             <div class="hero-subtitle">
                 Interactive Business Intelligence Dashboard for Google Play Store
                 Apps &amp; User Reviews

@@ -1,4 +1,4 @@
-# 📱 Google Play Store Analytics Dashboard
+# 📱 PlayStore Interlligence: App Analytics & Sentiment Mining Dashboard
 
 An interactive, portfolio-quality Business Intelligence Dashboard built with Streamlit and Plotly to analyze Google Play Store applications and user reviews. This project processes raw app and review data to deliver executive KPIs, category insights, trend analysis, and geographic visualizations.
 

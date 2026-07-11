@@ -1,4 +1,4 @@
-"""Streamlit entry point for the Google Play Store Analytics dashboard."""
+"""Streamlit entry point for the PlayStore Interlligence: App Analytics & Sentiment Mining Dashboard."""
 
 import streamlit as st
 

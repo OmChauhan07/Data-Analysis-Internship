@@ -9,14 +9,14 @@ CLEANED_DATA_DIR = DATA_DIR / "Cleaned_Data"
 TASK_DATA_DIR = DATA_DIR / "Task_wise_dataset"
 ASSETS_DIR = BASE_DIR / "assets"
 
-PAGE_TITLE = "Google Play Store Analytics Dashboard"
+PAGE_TITLE = "PlayStore Interlligence: App Analytics & Sentiment Mining Dashboard"
 PAGE_ICON = ""
 LAYOUT = "wide"
 
 AUTHOR = "Om Chauhan"
 DATA_SOURCE = "Google Play Store Apps and User Reviews datasets"
 FOOTER_TEXT = (
-    "Google Play Store Analytics Dashboard | "
+    "PlayStore Interlligence: App Analytics & Sentiment Mining Dashboard | "
     f"Developed by {AUTHOR} | Internship Project | "
     'Data Source: <strong><a href="https://www.kaggle.com/datasets/lava18/google-play-store-apps" target="_blank">Kaggle</a></strong> | '
     '<strong><a href="https://github.com/OmChauhan07" target="_blank">GitHub</a></strong> | '
