@@ -2,6 +2,10 @@
 
 An interactive, portfolio-quality Business Intelligence Dashboard built with Streamlit and Plotly to analyze Google Play Store applications and user reviews. This project processes raw app and review data to deliver executive KPIs, category insights, trend analysis, and geographic visualizations.
 
+## Live Demo
+
+https://play-store-data-analysis-dashboard.streamlit.app/
+
 ## 🚀 Key Features
 
 - **Executive Overview**: High-level KPIs including total apps, average rating, install volume, and estimated revenue.
