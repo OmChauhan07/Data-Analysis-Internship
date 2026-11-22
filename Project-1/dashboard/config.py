@@ -16,7 +16,7 @@ LAYOUT = "wide"
 AUTHOR = "Om Chauhan"
 DATA_SOURCE = "Google Play Store Apps and User Reviews datasets"
 FOOTER_TEXT = (
-    "PlayStore Interlligence: App Analytics & Sentiment Mining Dashboard | "
+    "PlayStore Intelligence: App Analytics & Sentiment Mining Dashboard | "
     f"Developed by {AUTHOR} | Internship Project | "
     'Data Source: <strong><a href="https://www.kaggle.com/datasets/lava18/google-play-store-apps" target="_blank">Kaggle</a></strong> | '
     '<strong><a href="https://github.com/OmChauhan07" target="_blank">GitHub</a></strong> | '
