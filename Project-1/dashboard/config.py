@@ -9,7 +9,7 @@ CLEANED_DATA_DIR = DATA_DIR / "Cleaned_Data"
 TASK_DATA_DIR = DATA_DIR / "Task_wise_dataset"
 ASSETS_DIR = BASE_DIR / "assets"
 
-PAGE_TITLE = "PlayStore Interlligence: App Analytics & Sentiment Mining Dashboard"
+PAGE_TITLE = "PlayStore Intelligence: App Analytics & Sentiment Mining Dashboard"
 PAGE_ICON = ""
 LAYOUT = "wide"
 
