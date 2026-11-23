@@ -68,7 +68,7 @@ def create_top_categories_chart(df: pd.DataFrame) -> go.Figure:
 
 
 def create_task1_chart(task1_df: pd.DataFrame) -> go.Figure:
-    """Task 1: Average rating and total reviews by category."""
+    """Average rating and total reviews by category."""
     fig = make_subplots(specs=[[{"secondary_y": True}]])
 
     fig.add_trace(
@@ -120,7 +120,7 @@ def create_task1_chart(task1_df: pd.DataFrame) -> go.Figure:
 
 
 def create_task2_chart(task2_df: pd.DataFrame) -> go.Figure:
-    """Task 2: Global installs choropleth."""
+    """Global installs choropleth."""
     chart_df = task2_df.copy()
     chart_df["Country"] = [
         "India",
@@ -149,7 +149,7 @@ def create_task2_chart(task2_df: pd.DataFrame) -> go.Figure:
 
 
 def create_task3_chart(task3_df: pd.DataFrame) -> go.Figure:
-    """Task 3: Free vs paid installs and revenue analysis."""
+    """Free vs paid installs and revenue analysis."""
     fig = make_subplots(specs=[[{"secondary_y": True}]])
 
     for app_type, color in zip(
@@ -206,7 +206,7 @@ def create_task3_chart(task3_df: pd.DataFrame) -> go.Figure:
 
 
 def create_task4_chart(task4_df: pd.DataFrame) -> go.Figure:
-    """Task 4: Installs trend analysis."""
+    """Installs trend analysis."""
     chart_df = task4_df.copy()
     chart_df["Category"] = chart_df["Category"].replace(
         {
@@ -251,7 +251,7 @@ def create_task4_chart(task4_df: pd.DataFrame) -> go.Figure:
 
 
 def create_task5_chart(task5_df: pd.DataFrame) -> go.Figure:
-    """Task 5: Bubble chart analysis."""
+    """Bubble chart analysis."""
     chart_df = task5_df.copy()
     chart_df["Category"] = chart_df["Category"].replace(
         {
@@ -297,7 +297,7 @@ def create_task5_chart(task5_df: pd.DataFrame) -> go.Figure:
 
 
 def create_task6_chart(task6_df: pd.DataFrame) -> go.Figure:
-    """Task 6: Stacked area chart for cumulative installs."""
+    """Stacked area chart for cumulative installs."""
     chart_df = task6_df.copy()
     chart_df["Category"] = chart_df["Category"].replace(
         {
